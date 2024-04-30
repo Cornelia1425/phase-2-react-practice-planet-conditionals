@@ -1,7 +1,7 @@
 import React from 'react'
 import PlanetCard from "./PlanetCard"
 
-function PlanetContainer({planets}) {
+function PlanetsContainer({planets}) {
 
   const mappedPlanets = planets.map(planet => <PlanetCard key={planet.id} planet={planet} />)
 
@@ -14,4 +14,4 @@ function PlanetContainer({planets}) {
   )
 }
 
-export default PlanetContainer
+export default PlanetsContainer
